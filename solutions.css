@@ -1,0 +1,7 @@
+@import "about.css";
+
+input {
+    width: 80%;
+    padding: 40px;
+    background-color:rgb(223, 166, 166);
+}

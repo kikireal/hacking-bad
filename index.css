@@ -1,0 +1,92 @@
+html{
+    padding:40px;
+    background: url(./picwm2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+   
+
+}
+#wm2{
+    font-size: 40px;
+    margin-left: 35px;
+    color: rgb(3, 60, 22);
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 0px;
+}
+#wm2:hover{
+    box-shadow:white;
+    cursor: pointer;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top:1px;
+    padding-bottom: 1px;
+}
+#wm3{
+    line-height: 0px;
+    color: lightgreen;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: large;
+}
+
+#header{
+    word-spacing: 30px;
+    text-decoration: none;
+}
+#middle{
+    display: flex;
+}
+button{
+    background-color: rgb(126, 155, 122); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+#middlep {
+    padding-left: 100px;
+    padding-top: 10%;
+    padding-right: 100px;
+    padding-bottom: 10%;
+    margin-left: 15%;
+    margin-right:15%;
+    text-align:justify;
+    background-color: rgb(126, 155, 122);
+    /*border: 15px solid;
+    border-color: rgb(255, 255, 255);
+*/
+}
+
+#topics{
+    margin-right: 50px;
+    font-size: 50px;
+}
+#comment-box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    background-color:rgb(221, 246, 224);
+}
+input {
+    width: 100%;
+    background-color:rgb(223, 166, 166);
+}
